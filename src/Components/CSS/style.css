@@ -1,0 +1,22 @@
+@font-face {
+  font-family: myFirstbold;
+  src: url(../font/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/static/Inter-Regular.ttf);
+  }
+* {
+  font-family: myFirstFont;
+}
+
+html,body,#root, .App{
+    height: 100%;
+}
+.heading{
+    font-family: myFirstbold;
+}
+.container{
+    width: 1336px;
+    margin: 0px auto;
+}
